@@ -116,15 +116,13 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_name}
-    ❤️‍🔥𝖩𝗈𝗂𝗇
- Update channel ➥ 「 https://t.me/MovieHuntZone 」
+    FILE_CAPTION = """/set_caption  <a href="https://t.me/+AOjcHxBEowBhYTRl">
+<b>{file_name}</b></a
 
-Request group ➥
-「  https://t.me/+SzLcULYfU8s4OTM1 」
-
-Bot group 
-[ https://t.me/+AOjcHxBEowBhYTRl ]</b>"""
+<b><blockquote>𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a href="https://t.me/MovieHuntZone">
+𝐔𝐏𝐃𝐀𝐓𝐄 𝐂𝐇𝐇𝐀𝐍𝐄𝐋
+</a></blockquote></b><b><blockquote>𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a href="https://t.me/+SzLcULYfU8s4OTM1">
+@𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></blockquote></b>"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
 
@@ -451,5 +449,6 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀ�
 ʙʏ /details ᴄᴏᴍᴍᴀɴᴅ
 </blockquote>
 Iғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴅᴏᴜʙᴛs ᴘʟᴇᴀsᴇ <a href="https://telegram.dog/JisshuDeveloperBot">ᴄᴏɴᴛᴀᴄᴛ</a> ᴍʏ <a href="https://telegram.dog/im_jisshu">Z I Ƨ Ή Λ П ♡</a></b>"""
+
 
 
