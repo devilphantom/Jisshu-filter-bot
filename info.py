@@ -38,7 +38,7 @@ CHANNELS = [
 ]
 
 # ForceSub Channel & Log Channels
-AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1002106653809"))
+AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "0"))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", "0"))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002866064533"))
 LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "0"))
@@ -154,7 +154,7 @@ IS_SEND_MOVIE_UPDATE = is_enabled(
 MAX_BTN = int(environ.get("MAX_BTN", "8"))
 AUTO_DELETE = is_enabled("AUTO_DELETE", True )
 DELETE_TIME = int(environ.get("DELETE_TIME", 1800))
-IMDB = is_enabled("IMDB", True)
+IMDB = is_enabled("IMDB", False)
 FILE_CAPTION = environ.get("FILE_CAPTION", f"{script.FILE_CAPTION }")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 LONG_IMDB_DESCRIPTION = is_enabled("LONG_IMDB_DESCRIPTION", False)
