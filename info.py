@@ -68,7 +68,7 @@ SUPPORT_CHAT = environ.get("SUPPORT_CHAT", "https://t.me/+2QGud_Vb71gxMmU1")
 MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "https://t.me/+AOjcHxBEowBhYTRl")
 
 # Verification
-IS_VERIFY = is_enabled("IS_VERIFY", False)
+IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
@@ -76,16 +76,16 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
-SHORTENER_API = environ.get("SHORTENER_API", "d4cecfe2091448cfd2d9c2e805c5b2ecb77d5b15")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "reel2earn.com")
+SHORTENER_API = environ.get("SHORTENER_API", "63dc925087c39165271ff85eff06c2c4b97cb50d")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "https://exe.io/")
 SHORTENER_API2 = environ.get(
-    "SHORTENER_API2", "d4cecfe2091448cfd2d9c2e805c5b2ecb77d5b15"
+    "SHORTENER_API2", "63dc925087c39165271ff85eff06c2c4b97cb50d"
 )
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "reel2earn.com")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "https://exe.io/")
 SHORTENER_API3 = environ.get(
-    "SHORTENER_API3", "d4cecfe2091448cfd2d9c2e805c5b2ecb77d5b15"
+    "SHORTENER_API3", "63dc925087c39165271ff85eff06c2c4b97cb50d"
 )
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "reel2earn.com")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "https://exe.io/")
 TWO_VERIFY_GAP = int(environ.get("TWO_VERIFY_GAP", "14400"))
 THREE_VERIFY_GAP = int(environ.get("THREE_VERIFY_GAP", "14400"))
 
